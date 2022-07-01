@@ -7,7 +7,7 @@ Topics covered:
 - Exploring the Virtual Machine that Colab is connected and changing RunTime Environments to add a GPU/TPU to your virtual machine. 
 
 
-# L2, 7/12022:
+# L2, 7/1/2022:
 
 Topics covered:
 - Review of Google Colab and Rstudio Cloud for tablar data driven analysis of a new data set (british seatbelt study)
