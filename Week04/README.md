@@ -28,10 +28,11 @@
     conda activate pgss2022_py38
 
 4. Install  requirements:
-    pip install requirements.txt 
+    pip install -r requirements.txt 
 
 # Use pip venv for package management:
-    python3 -m venv envFolder 
+    python3 -m venv myLocalPythonVENV 
+    source myLocalPythonVENV/bin/activate
 
 
 
