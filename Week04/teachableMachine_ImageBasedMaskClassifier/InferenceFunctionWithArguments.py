@@ -1,7 +1,12 @@
 # Run me with: ! python InferenceFunctionWithArguments.py labels.txt keras_model.h5 testImage.jpg
 
+# Freeze local requirements:
+# install:  pip3 install pipreqs
+# Run in current directory: python3 -m  pipreqs.pipreqs .
+
+
 from keras.models import load_model
-from PIL import Image, ImageOps
+from PIL import Image, ImageOps  #pip install Pillow
 import numpy as np
 import pandas as pd
 import sys
