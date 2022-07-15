@@ -3,7 +3,7 @@ h2o==3.36.1.3
 sklearn==0.0
 sklearn-pandas==1.8.0
 seaborn==0.11.2
-matplotlib==3.2.2
+matplotlib==3.5.2
 matplotlib-inline==0.1.3
 matplotlib-venn==0.11.7
 google-colab @ file:///colabtools/dist/google-colab-1.0.0.tar.gz
@@ -29,6 +29,23 @@ pandas==1.3.5
 pandas-datareader==0.9.0
 pandas-gbq==0.13.3
 pandas-profiling==1.4.1
-autoviz
-sweetviz
-sdv
+autoviz==0.1.41
+bokeh==2.4.3
+copulas==0.7.0
+ctgan==0.5.1
+deepecho==0.3.0.post1
+emoji==1.7.0
+Faker==9.9.1
+fonttools==4.34.4
+fsspec==2022.5.0
+graphviz==0.
+hvplot==0.8.0
+panel==0.12.7
+psutil==5.9.1
+pyamg==4.2.3
+pyts==0.12.0
+PyYAML==5.4.1
+rdt==0.6.4
+sdmetrics==0.5.0
+sdv==0.15.0
+sweetviz==2.1.4
