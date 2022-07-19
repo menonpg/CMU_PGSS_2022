@@ -1,6 +1,10 @@
 import sys
 from streamlit import cli as stcli
 import streamlit as st
+
+# Freeze local requirements:
+# install:  pip3 install pipreqs
+# Run in current directory: python3 -m  pipreqs.pipreqs .
     
 def main():
     # Your streamlit code
