@@ -1,3 +1,5 @@
+# Run with: streamlit run streamlitInference.py --server.port=8501 --server.address=0.0.0.0
+
 import sys
 from streamlit import cli as stcli
 import streamlit as st
