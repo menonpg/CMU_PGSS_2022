@@ -7,6 +7,8 @@ import pandas as pd
 import sys
 import cv2
 import streamlit as st
+# Allows you to run the streamlit app by running the script directly:
+from streamlit import cli as stcli
 
 def ModelInference_Keras(labelFile='labels.txt', modelFile='keras_model.h5', imageFile='testImage.jpg'):
   # Load labels.txt
@@ -40,7 +42,7 @@ def ModelInference_Keras(labelFile='labels.txt', modelFile='keras_model.h5', ima
   return(PredictionLabel)
 
 
-if __name__ == "__main__":
+def main():
     # Load the image from the webcam
     
     cap = cv2.VideoCapture(0)
@@ -65,3 +67,12 @@ if __name__ == "__main__":
         with st.expander("Prediction"):
             # Display the prediction
             st.write("Prediction:", myPredictions)
+
+
+if __name__ == '__main__':
+    if st._is_running_with_streamlit:
+        main()
+        
+    else:
+        sys.argv = ["streamlit", "run", sys.argv[0], "--server.port=8501", "--server.address=0.0.0.0"]
+        sys.exit(stcli.main())
