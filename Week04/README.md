@@ -1,4 +1,5 @@
-L6, 7/19/2022:
+L6, 7/19/2022; L7: 7/22/2022
+
 - Setting up a local development environment without WSL in Windows 
     - Running the keras / tensorflow model from last class in your local environment 
 
@@ -11,4 +12,4 @@ Net new stuff:
 - What is Streamlit 
     - How to create a user-interface without fancy code, in-line with your python script
 - Setting up a web-app in Streamlit for running the core functionality of the keras model inference script
-
+- Generating code with Github Copilot in ipynb and py files + examples 
